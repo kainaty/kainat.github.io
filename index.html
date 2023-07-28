@@ -1,14 +1,695 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <title>Project: Travel webpage</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@600&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine&effect=emboss">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+  <link rel="stylesheet" href="css/resources_v2.css">
+  <title>Kainat Yasmeen</title>
+<!--   <link rel="icon" href="/assets/cat.png" type="image/x-icon"> -->
+  <!-- <a href="https://www.flaticon.com/free-icons/strawberry" title="strawberry icons">Strawberry icons created by Freepik -
+        Flaticon</a> -->
 </head>
-<body>
 
-<h1>Travel to Costa Rica</h1>
+<body class="body flex">
+  <div>
+    <header class="primary-header flex">
+      <!-- <a class="logo" href="./index.html#">
+                <img src="/assets/svgs/estate.svg" />
+            </a> -->
+      <button class="mobile-nav-toggle" aria-controls="navul" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <div id="menu" class="hamburgerMenu">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+      </button>
+      <div class="herotext delay1">
+        <a href="#">Kainat</a>
+      </div>
+      <!-- <div class="mobile herotext delay1">
+                <a href="#">kainat</a>
+            </div> -->
+      <nav>
+        <ul role="list" class="primary-navigation flex" data-visible="false">
 
-<p>...and you'll get to see these beauties!</p>
-<img src="https://www.kasandbox.org/programming-images/animals/crocodiles.png" alt="Scary crocodiles" width="200"/>
+          <!-- <li class="navitem delay1">
+                        <a href="#"><span aria-hidden="true" style="font-family:'Roboto',sans-serif;"><i
+                                    class="uil uil-corner-down-right"></i>/</span>top</a>
+                    </li> -->
+          <li class="navitem delay2">
+            <a href="#papers">
+              <span aria-hidden="true" style="font-family:'Roboto',sans-serif;">
+                <i class="uil uil-corner-down-right"></i>/</span>research
+            </a>
+          </li>
+
+          <li class="navitem delay3">
+            <a href="#talks"><span aria-hidden="true" style="font-family:'Roboto',sans-serif;"><i
+                  class="uil uil-corner-down-right"></i>/</span>talks</a>
+          </li>
+
+          <!-- <li class="navitem delay4">
+            <a href="#activities">
+              <span aria-hidden="true" style="font-family:'Roboto',sans-serif;">
+                <i class="uil uil-corner-down-right"></i>/</span>activities
+            </a>
+          </li> -->
+
+          <li class="navitem delay4">
+            <a href="/misc.html">
+              <span aria-hidden="true" style="font-family:'Roboto',sans-serif;">
+                <i class="uil uil-external-link-alt"></i>/</span>misc.
+            </a>
+          </li>
+
+          <li class="navitem delay5">
+            <a href="https://theoreticles.netlify.app/" target="_blank" rel="noopener noreferrer me"><span
+                aria-hidden="true" style="font-family:'Roboto',sans-serif;"><i
+                  class="uil uil-external-link-alt"></i>/</span>Blog</a>
+          </li>
+          <!-- <li class="navitem delay5">
+                        <a href="./assets/Proposal.pdf" target="_blank" rel="noopener noreferrer me"><span
+                                aria-hidden="true" style="font-family:'Roboto',sans-serif;"><i
+                                    class="uil uil-download-alt"></i></span>Research Statement</a>
+                    </li> -->
+          <li class="navitem delay5">
+            <a href="./assets/kainat_CV.pdf" target="_blank" rel="noopener noreferrer me"><span aria-hidden="true"
+                style="font-family:'Roboto',sans-serif;"><i class="uil uil-download-alt"></i></span>CV</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+
+  <div>
+
+    <main class="mainbody">
+      <!-- <section class="full-page-slide"> -->
+
+      <section>
+
+        <div id="about-me" class="post delay6 about-me flex">
+          <h1 class="titleh1">kainat Chatterjee</h1>
+          <div class="about-grid grid">
+            <div class="card__content dp card__img">
+              <img loading="lazy" src="/assets/dp_new.jpeg">
+            </div>
+            <div class="card">
+
+              <div class="card__content">
+                <h2 class="card-title">About Me</h2>
+
+                <p class="card-description">
+                  I am a PhD student in the
+                  <span><a href="https://braqiiit.github.io/" target="_blank" rel="noopener noreferrer me">BraQIIIT
+                      lab</a></span> at
+                  IIIT-Delhi, where I am very fortunate to be advised by <span><a
+                      href="https://www.iiitd.edu.in/~dbera/" target="_blank" rel="noopener noreferrer me">Prof.
+                      Debajyoti Bera</a></span>. Previously, I
+                  was employed at Oracle Financial Software Services (OFSS) in Bengaluru.
+                </p><br>
+                <h2 class="card-title">My research</h2>
+                <p class="card-description">
+                  My main area of research lies at the intersection of <span class="highlight-bold">quantum
+                    computing</span> and <span class="highlight-bold">computational learning
+                    theory</span>, and involves developing algorithms for discriminative and
+                  generative tasks under various noise models and proving theoretical bounds for convergence,
+                  generalization, and speedups. Recently, I have also started gaining an interest in <span
+                    class="highlight-bold">provably secure and private</span> models from a quantum learning theoretic
+                  perspective.
+                </p><br>
+
+                <!-- <div class="card-description cvdiv">
+                                    <a href="./assets/Proposal.pdf"><button class="cv"> Research Statement</button></a>
+                                </div> -->
+                <h2 class="card-title">Contact</h2>
+                <p class="card-description">
+                  <span style="font-weight: 600;"> Office:</span> B-513, New Academic block, IIITD
+                  <br>
+                  <span style="font-weight: 600;">Email:</span> <span class="emailid">kainatc [at]
+                    iiitd [dot] ac [dot]
+                    in</span>
+                </p><br>
+                <!-- <div class="card-description cvdiv">
+                                    <a href="./assets/kainat_CV.pdf"><button class="cv"> Resume</button></a>
+                                </div> -->
+                <h2 class="card-title">Other Interesting Links</h2>
+                <ul class="card-description">
+                  <li>My <a href="https://theoreticles.netlify.app/" target="_blank" rel="noopener noreferrer me"><span
+                        aria-hidden="true" style="font-family:'Roboto',sans-serif;">Blog</span></a>.</li>
+                  <li>BraQIIIT Lab <a
+                      href="https://docs.google.com/document/d/1ca1IRwavkKD4OriHHEdLUO5vr0R11Ts2fixjMLfO8Sk/edit?usp=sharing"
+                      target="_blank" rel="noopener noreferrer">Reading Group</a> log.</li>
+                  <li>My <a href="/assets/feedly.opml" target="_blank" rel="noopener noreferrer">Feedly
+                      Opml
+                      File</a>.</li>
+                  <li>Curated <a
+                      href="https://docs.google.com/document/d/1mLxb2jfnkNd3yEzcv1FxfMIezGUdGvp6eI_qz9BBOuw/edit?usp=sharing"
+                      target="_blank" rel="noopener noreferrer">StackExchange Links</a>.</li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="card__content card__timeline">
+              <h2 class="card-title">News</h2>
+              <ul class="list_timeline">
+                <li><i class="uil uil-graduation-cap"></i><span class="date">Jul-Sep'23:</span> Visiting
+                  <span class="venue">Czech Technical University, Prague</span> for a research internship.
+                </li>
+                <li><i class="uil uil-graduation-cap"></i><span class="date">Jul'23:</span> New preprint on
+                  <span class="paper">Quantum Solutions to the Privacy vs. Utility Tradeoff</span> out on arXiv<a
+                    href="https://arxiv.org/abs/2307.03118"><i class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-graduation-cap"></i><span class="date">Jun'23:</span>
+                  <span class="paper">Quantum boosting using domain-partitioning
+                    hypotheses</span> accepted at <span class="venue">Quantum Machine Intelligence</span>.
+                </li>
+                <li><i class="uil uil-users-alt"></i><span class="date">Jun'23:</span>
+                  Attended
+                  the <span class="highlight">JTG Summer School</span> at IISc Bangalore.
+                </li>
+                <li>
+                  <i class="uil uil-microphone"></i><span class="date">Feb'23:</span>
+                  Gave an invited talk on our QTML paper at the <span class="highlight">IIITD CSE
+                    Department seminar</span>.
+                </li>
+                <li><i class="uil uil-book-reader"></i><span class="date">Jan'23:</span>
+                  Teaching Assistant for <span class="highlight">Introduction to Quantum
+                    Computing</span><a href="https://www.iiitd.edu.in/~dbera/teach/cse622-w23/index.html"><i
+                      class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-graduation-cap"></i><span class="date">Nov'22:</span>
+                  <span class="paper">Quantum boosting using domain-partitioning
+                    hypotheses</span> accepted at <span class="venue">QTML'22</span> for a short
+                  talk.
+                </li>
+                <li><i class="uil uil-award"></i><span class="date">Apr'22:</span>
+                  Qualified my <span class="highlight-bold">Ph.D. Comprehensive Exam</span>.
+                </li>
+                <li><i class="uil uil-book-reader"></i><span class="date">Mar'22:</span>
+                  Teaching Assistant for <span class="highlight">Data Structures and
+                    Algorithms</span>.
+                </li>
+                <li><i class="uil uil-microphone"></i><span class="date">Mar'22:</span>
+                  Gave an invited talk on quantum boosting algorithms at
+                  the <span class="highlight">IITD Theoretical CS seminar</span>.
+                </li>
+                <li><i class="uil uil-users-alt"></i><span class="date">Mar'22:</span>
+                  Poster presented
+                  at <span class="venue">QIP'22</span>.
+                </li>
+                <li><i class="uil uil-users-alt"></i><span class="date">Dec'21:</span>
+                  Organized and conducted <span class="venue">QISE'21</span> colocated with <span
+                    class="highlight">FSTTCS'21</span><a href="https://acm-goa.github.io/QISE/"><i
+                      class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-book-reader"></i><span class="date">Aug'21:</span>
+                  Teaching Assistant for <span class="highlight">Modern Algorithm Design</span><a
+                    href="https://sites.google.com/iiitd.ac.in/mad21/home"><i
+                      class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-book-reader"></i><span class="date">Jan'21:</span>
+                  Teaching Assistant for <span class="highlight">Theory of Computation</span><a
+                    href="https://sites.google.com/a/iiitd.ac.in/cse322-w21/"><i
+                      class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-users-alt"></i><span class="date">Jan'21:</span>
+                  Poster presented
+                  at <span class="venue">QIP'21</span>.
+                </li>
+                <li><i class="uil uil-microphone"></i><span class="date">Dec'20:</span>
+                  Gave
+                  an invited talk on <span class="highlight">Quantum Machine Learning</span> at the
+                  <span class="highlight"> Faculty Development program</span>
+                  hosted by JNTU, Anantapur.
+                </li>
+                <li><i class="uil uil-graduation-cap"></i><span class="date">Nov'20:</span>
+                  Extended
+                  Abstract on <span class="paper">Applying QAOA+ to the graph matching problem</span>
+                  accepted at <span class="venue">AQIS'20</span>.
+                </li>
+                <li><i class="uil uil-book-reader"></i><span class="date">Aug'20:</span>
+                  Teaching Assistant for <span class="highlight">Modern Algorithm Design</span><a
+                    href="https://sites.google.com/iiitd.ac.in/mad20/home"><i
+                      class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-users-alt"></i><span class="date">Feb'20:</span>
+                  Attended
+                  the <span class="highlight">Boolean
+                    Functions workshop</span> at ISI-Kolkata.
+                </li>
+                <li><i class="uil uil-award"></i><span class="date">Jan'20:</span>
+                  Runners-Up
+                  in the <span class="highlight">IBMQ
+                    Awards; Teach Me Quantum Category</span><a
+                    href="https://www.ibm.com/blogs/research/2020/03/2019-ibmq-awards/"><i
+                      class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-book-reader"></i><span class="date">Jan'20:</span>
+                  Teaching Assistant for <span class="highlight">Theory of Computation</span><a
+                    href="https://sites.google.com/a/iiitd.ac.in/cse322-w20/"><i
+                      class="uil uil-external-link-alt"></i></a>.
+                </li>
+                <li><i class="uil uil-users-alt"></i><span class="date">Dec'19:</span>
+                  Attended
+                  the <span class="highlight">4th
+                    Winter School</span> in CS organized by the IIAS, at the Hebrew
+                  University of Jerusalem.
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="full-page-slide">
+        <!-- <div id="particles-js1"></div> -->
+        <div id="talks" class="post delay6 flex">
+          <h1>Talks</h1>
+          <div class="talks-grid grid">
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Generating Hard
+                  Instances for the Short Basis problem</h2>
+                <h3>
+                  <div class="card-venue">Lattices in Computer Science, Winter 2023 Course
+                    Presentation</div>
+                </h3>
+                <p class="card-description">
+                  Here are <a
+                    href="https://drive.google.com/file/d/1pyVb3wzr6fhukoQqEg_8O8Sz2tTbx6GE/view?usp=share_link"
+                    target="_blank" rel="noopener noreferrer">my notes</a>.
+                </p>
+                <ul>
+                  <h3>Reference papers</h3>
+                  <li>
+                    <a href="https://link.springer.com/chapter/10.1007/3-540-48523-6_1" target="_blank"
+                      rel="noopener noreferrer me">Ajtai</a>
+                  </li>
+                  <li>
+                    <a href="https://cims.nyu.edu/~regev/papers/pqc.pdf" target="_blank"
+                      rel="noopener noreferrer me">Micciancio-Regev</a>
+                  </li>
+                  <li>
+                    <a target="_blank" rel="noopener noreferrer me"
+                      href="https://eprint.iacr.org/2008/521">Alwen-Peikert</a>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Improved Quantum Query
+                  Upper Bounds based on Classical Decision Trees</h2>
+                <h3>
+                  <div class="card-venue">IIIT-Delhi Theory Reading Group Talk, 2023</div>
+                </h3>
+                <p class="card-description">
+                  This was the inaugural talk of the bi-weekly IIIT-Delhi Theory Reading Group.
+                </p>
+                <ul>
+                  <h3>Reference papers</h3>
+                  <li>
+                    <!-- Quantum Boosting of Domain-Partitioning hypotheses: -->
+                    <a href="https://drops.dagstuhl.de/opus/volltexte/2022/17407/pdf/LIPIcs-FSTTCS-2022-15.pdf"
+                      target="_blank" rel="noopener noreferrer me">Cornelissen-Mande-Patro</a>
+                  </li>
+                  <li>
+                    <a href="https://drive.google.com/file/d/1_EG4fKCL5qqNgWNt3v5g13yL_JtSo1Oc/view?usp=sharing"
+                      target="_blank" rel="noopener noreferrer">My notes.</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Quantum Boosting Algorithms</h2>
+                <h3 class="card-venue">IIIT-Delhi CSE Seminar, 2023</h3>
+                <p class="card-description">
+                  This was a talk at the IIIT-Delhi CSE Seminar on the joint work
+                  with my advisor, Rohan Bhatia, and Parmeet Singh Chani. See <a href="#Domain">above</a> for details.
+                  <br>
+                  <bf>Social Media</bf>: <a href="https://twitter.com/cseiiitd/status/1621069396457447428"
+                    target="_blank" rel="noopener noreferrer">Twitter</a>, <a
+                    href="https://www.facebook.com/cseiiitd/posts/pfbid0JdzFPc9AK17PkdH5mUFbbdv23BKB6CTTb4aMxLEaLZ8DQJ6M67WQfFUwAuRMUcKnl"
+                    target="_blank" rel="noopener noreferrer">Facebook</a>, <a
+                    href="https://www.instagram.com/p/CoJ2m5cMV_q/?utm_source=ig_web_copy_link" target="_blank"
+                    rel="noopener noreferrer">Instagram</a>.
+                </p>
+
+
+              </div>
+            </div>
+
+
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Introduction to C</h2>
+                <h3 class="card-venue">Refresher Module, 2022</h3>
+                <p class="card-description">
+                  This was a short course I taught at IIIT-Delhi as part of a refresher module on
+                  Operating Systems during the Monsoon 2022 semester.
+                  <!-- The focus of the course was
+                                    revising the behaviour of the C-compiler with respect to the system memory at an
+                                    introductory level. The main topics covered were control flow, pointers, arrays,
+                                    strings, dynamic memory allocation, intermediate stages of compilation, and using
+                                    tools like gdb and valgring for debugging. -->
+                  <br>
+                  <a href="https://drive.google.com/file/d/1Nqqdfpmh7-lpnIjoB5v0F2vb6u3Ini2u/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer me">Lecture 1</a>,
+                  <a href="https://drive.google.com/file/d/1s6ISfikj4F0hLX1hxPxn0DCCn1qsks4E/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer me">Lecture 2</a>,
+                  <a href="https://drive.google.com/file/d/1eYe7UQ2nUd0e7cqX6x6CbmGwbP58Te6L/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer me">Lecture 3</a>.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Quantum Boosting Algorithms</h2>
+                <h3 class="card-venue">IIT-Delhi Theoretical CS Seminar, 2022</h3>
+                <p class="card-description">
+                  This was a talk at the weekly Theoretical CS seminar at IIT Delhi on the joint work
+                  with my advisor, Rohan Bhatia, and Parmeet Singh Chani. See <a href="#Domain">above</a> for details.
+                </p>
+                <ul>
+                  <h3>Reference papers</h3>
+                  <li>
+                    <!-- Quantum Boosting of Domain-Partitioning hypotheses: -->
+                    <a href="https://arxiv.org/abs/2110.12793" target="_blank"
+                      rel="noopener noreferrer me">Chatterjee-Bhatia-Singh Chani-Bera</a>
+                  </li>
+                  <li>
+                    <!-- Quantum Boosting: -->
+                    <a href="http://proceedings.mlr.press/v119/arunachalam20a.html" target="_blank"
+                      rel="noopener noreferrer me">Arunachalam-Maity</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Quantum Machine Learning</h2>
+                <h3>
+                  <div class="card-venue">Faculty Development Program, 2020</div>
+                </h3>
+                <p class="card-description">
+                  This was an invited talk at the Faculty Development Program at the JNTU,
+                  Anantapuram, India. The talk
+                  focuses on giving an overview of Quantum Optimization and Quantum Machine Learning.
+                  My <a href="https://drive.google.com/file/d/1dfsWbnhWqKs92i2hZDuP60WBzNTBaApg/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer me">Slides</a>.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Shallow Quantum Circuits</h2>
+                <h3>
+                  <div class="card-venue">Evariste Invited Talk, 2020</div>
+                </h3>
+                <p class="card-description">
+                  This was a talk I gave for Evariste – IIITD’s Theory and Math club.<br>
+                  <span class="date">Abstract:</span> We discussed the motivations behind research on
+                  Shallow Quantum Circuits and some
+                  interesting
+                  separation results (noisy as well as noiseless)
+                  between SQC’s and various classical circuits.
+                  <a href="https://drive.google.com/file/d/1wnlXD6ftmqDjKiBREndMSe5Z-6GLhR5T/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer me">Slides</a> and
+                  <a href="https://drive.google.com/file/d/1rdRXroRxZXiDFgAvcB_lyGcZAfvODGI1/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer me">Video</a>
+                  (<em>Video is internal to IIITD</em>).
+                </p>
+                <ul>
+                  <h3>References</h3>
+                  <!-- <li>
+                                        
+                                        <a href="https://arxiv.org/abs/quant-ph/0205133" target="_blank"
+                                            rel="noopener noreferrer me">Terhal-DiVincenzo'02</a>
+                                    </li> -->
+                  <!-- <li>
+                                        
+                                        <a href="https://arxiv.org/abs/1011.3245" target="_blank"
+                                            rel="noopener noreferrer me">Aaronson-Arkhipov'11</a>
+                                    </li> -->
+                  <li>
+
+                    <a href="https://arxiv.org/abs/1704.00690" target="_blank"
+                      rel="noopener noreferrer me">Bravyi-Gosset-Koenig'18</a>
+                  </li>
+                  <li>
+
+                    <a href="https://arxiv.org/abs/1906.08890" target="_blank"
+                      rel="noopener noreferrer me">Watts-Kothari-Schaeffer-Tal'19</a>
+                  </li>
+                  <li>
+                    <!-- Average-Case Quantum Advantage with Shallow Circuits:  -->
+                    <a href="https://arxiv.org/abs/1810.12792" target="_blank" rel="noopener noreferrer me">Le
+                      Gall'19</a>
+                  </li>
+                  <li>
+                    <!-- Quantum advantage with noisy shallow circuits in 3D:  -->
+                    <a href="https://arxiv.org/abs/1904.01502" target="_blank"
+                      rel="noopener noreferrer me">Bravyi-Gosset-Koenig-Tomamichel'19</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">Oracle Separation of BQP and PH</h2>
+                <h3>
+                  <div class="card-venue">Complexity Theory Course Presentation, 2020</div>
+                </h3>
+                <ul>
+                  <h3>References</h3>
+                  <li>
+                    <bf>Original Paper</bf>: Oracle separation of BQP and PH
+                    (<a href="https://dl.acm.org/doi/abs/10.1145/3313276.3316315" target="_blank"
+                      rel="noopener noreferrer me">Raz-Tal</a>).
+                  </li>
+                  <li>
+                    <strong>Blog Posts</strong>:
+                    <a href="https://windowsontheory.org/2018/06/17/on-the-raz-tal-oracle-separation-of-bqp-and-ph/"
+                      target="_blank" rel="noopener noreferrer me">Boaz Barak</a>,
+                    <a href="https://scottaaronson.blog/?p=3827" target="_blank" rel="noopener noreferrer me">Scott
+                      Aaronson</a>, <a
+                      href="https://blog.computationalcomplexity.org/2018/06/bqp-not-in-polynomial-time-hierarchy-in.html"
+                      target="_blank" rel="noopener noreferrer me">Lance
+                      Fortnow</a>, <a
+                      href="http://theory.stanford.edu/~liyang/teaching/projects/oracle-separation-of-BQP-PH.pdf"
+                      target="_blank" rel="noopener noreferrer me"> Stanford blog post</a>.
+                  </li>
+                  <li>My <a href="https://drive.google.com/file/d/1o9AZDxG6x4HllqvBU_FFd1X1KvwctJYR/view?usp=sharing"
+                      target="_blank" rel="noopener noreferrer me">Slides</a>.</li>
+                </ul>
+              </div>
+            </div>
+
+
+
+
+            <div class="card">
+              <div class="card__content">
+                <h2 class="card-title">The HHL algorithm</h2>
+                <h3>
+                  <div class="card-venue">Gong Show Talk, IIAS Winter School, 2019</div>
+                </h3>
+                <p class="card-description">
+                  This was a short talk I gave at the 4th Advanced School of CSE, hosted by the
+                  Israel Institute of Advanced
+                  Studies, Jerusalem. My HHL notes are part of the course we designed for
+                  the “Teach Me Quantum” category of the 2019-20 IBMQ awards
+                  (2019-2020), in which <a href="https://www.ibm.com/blogs/research/2020/03/2019-ibmq-awards/"
+                    target="_blank" rel="noopener noreferrer me">we won the second place
+                    prize</a>.
+
+                </p>
+                <ul>
+                  <h3>Reference papers</h3>
+                  <li>
+                    <!-- Quantum algorithm for solving linear systems of equations: -->
+                    <a href="https://arxiv.org/abs/0811.3171" target="_blank"
+                      rel="noopener noreferrer me">Harrow-Hassidim-Lloyd'09</a>
+                  </li>
+                  <li>
+                    <!-- Variable time amplitude amplification and a faster quantum algorithm for solving systems of linear equations: -->
+                    <a href="https://arxiv.org/abs/1010.4458" target="_blank"
+                      rel="noopener noreferrer me">Ambainis'10</a>
+                  </li>
+                  <li>
+                    <!-- A quantum linear system algorithm for dense matrices: -->
+                    <a href="https://arxiv.org/abs/1704.06174" target="_blank"
+                      rel="noopener noreferrer me">Wossnig-Zhao-Prakash'17</a>
+                  </li>
+                  <li>
+                    <!-- Quantum algorithm for systems of linear equations with exponentially improved dependence on precision: -->
+                    <a href="https://arxiv.org/abs/1511.02306" target="_blank"
+                      rel="noopener noreferrer me">Childs-Kothari-Somma'17</a>
+                  </li>
+                  <li>
+                    My <a href="https://drive.google.com/file/d/1yFT4dajjkLqELeXtN7S0qzUf5yfMbjXP/view?usp=sharing"
+                      target="_blank" rel="noopener noreferrer me">Notes</a> and
+                    <a href="https://drive.google.com/file/d/1X0Qp-Yxz0bg2eQEr6plEojViOcBVAUX_/view?usp=sharing"
+                      target="_blank" rel="noopener noreferrer me">Slides</a>.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- <section class="full-page-slide">
+                <div id="activities" class="post delay6 flex">
+                    <h1>Co-Curriculars</h1>
+
+                    <div class="activities-grid grid">
+
+                        <div class="card">
+                            <div class="card__content">
+                                <h2 class="card-title">QISE 2021 Workshop</h2>
+                                <p class="card-description">
+                                    I was the only grad student to be a part of the 2021 workshop on Quantum Information
+                                    Science and Engineering (colocated with FSTTCS 2021) organizing committee. This is
+                                    the
+                                    <a href="https://acm-goa.github.io/QISE/" target="_blank"
+                                        rel="noopener noreferrer me">website for the
+                                        workshop</a> (desktop browsers
+                                    recommended).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__content">
+                                <h2 class="card-title">2020 Workshop on Boolean Functions</h2>
+                                <p class="card-description">
+                                    I was selected to attend a <a href="https://bit.ly/isiworkshop20" target="_blank"
+                                        rel="noopener noreferrer me">workshop on Sensitivity, Query Complexity,
+                                        Communication Complexity and Fourier Analysis of Boolean Functions</a> organized
+                                    by the Indian Statistical Institute, Calcutta.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__content">
+                                <h2 class="card-title">The 4th Advanced Winter School by IIAS 2019</h2>
+                                <p class="card-description">
+                                    I was one of the two grad students from India to be selected for this <a
+                                        href="https://iias.huji.ac.il/SchoolCSE4" target="_blank"
+                                        rel="noopener noreferrer me">prestigious
+                                        winter school</a> organized by the Israel Institute for Advanced studies, at the
+                                    Hebrew University of
+                                    Jerusalem. The school served as brief introductions to the fields of quantum
+                                    algorithms, quantum error
+                                    correction, quantum supremacy, delegation and verification, interactive proofs,
+                                    cryptography, and
+                                    Hamiltonian complexity along with detailed TA sessions for a week. Check out the
+                                    youtube video of my <a href="https://www.youtube.com/watch?v=SLaX5_WrTKA"
+                                        target="_blank" rel="noopener noreferrer me">Gong
+                                        Talk</a> on the HHL algorithm (starts around the 6 min mark).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__content">
+                                <h2 class="card-title">IBMQ Awards 2019</h2>
+                                <p class="card-description">
+                                    <a href="https://www.ibm.com/blogs/research/2020/03/2019-ibmq-awards/"
+                                        target="_blank" rel="noopener noreferrer me">We finished runners up</a></span>
+                                    in the “Teach Me Quantum” category of the
+                                    IBMQ awards (2019-2020). Check out the <a
+                                        href="https://github.com/TharrmashasthaPV/Teach_Me_Quantum" target="_blank"
+                                        rel="noopener noreferrer me">Github repo for the course here</a>. We designed an
+                                    11-week undergraduate course covering concepts in quantum physics, quantum
+                                    chemistry, mathematics,
+                                    complexity theory,
+                                    cryptography, and ensemble based learning and much more. The main goal of this
+                                    course is to serve as a starting point for people from backgrounds in physics,
+                                    mathematics, chemistry and computer science with exercises tailored specifically
+                                    towards these domains.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </section> -->
+
+
+    </main>
+  </div>
+  <div class="footer">
+    <div class="socials card-description">
+      <!-- Use https://iconscout.com/ to find svg's, and then directly edit the code.-->
+      <a href="https://dblp.org/pid/279/3927.html" target="_blank" rel="noopener noreferrer me" title="DBLP"
+        style="color: currentColor;">
+        <svg style="color: rgb(59, 66, 82);" class="bi bi-dblp" role="img" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <title>dblp</title>
+          <path
+            d="M3.075.002c-.096.013-.154.092-.094.31L4.97 7.73 3.1 8.6s-.56.26-.4.85l2.45 9.159s.16.59.72.33l6.169-2.869 1.3-.61s.52-.24.42-.79l-.01-.06-1.13-4.22-.658-2.45-.672-2.49v-.04s-.16-.59-.84-1L3.5.141s-.265-.16-.425-.139zM18.324 5.03a.724.724 0 0 0-.193.06l-5.602 2.6.862 3.2 1.09 4.08.01.06c.05.47-.411.79-.411.79l-1.88.87.5 1.89.04.1c.07.17.28.6.81.91l6.95 4.269s.68.41.52-.17l-1.981-7.4 1.861-.86s.56-.26.4-.85L18.85 5.42s-.116-.452-.526-.39z"
+            fill="#5e81ac"></path>
+        </svg>
+      </a>
+      <a href="https://orcid.org/0000-0002-9289-7120" target="_blank" rel="noopener noreferrer me" title="orcid"
+        style="color: currentColor;">
+        <svg class="bi bi-orcid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"
+            fill="#5e81ac"></path>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/kainat-yasmeen-6714b41a0/" target="_blank" rel="noopener noreferrer me" title="Linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3b4252" class="bi bi-linkedin"
+          viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+            fill="#5e81ac" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <script src="js/resources.js" defer></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 </body>
+
 </html>
